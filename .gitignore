@@ -1,0 +1,33 @@
+# Node / Next.js
+node_modules/
+.next/
+.out/
+coverage/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Env / Secrets
+.env
+.env.*.local
+*.local
+# Supabase local state
+.supabase/**
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Vercel / Deploy
+.vercel/
+
+# Tests
+.tap
+.junit
